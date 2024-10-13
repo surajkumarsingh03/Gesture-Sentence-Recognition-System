@@ -3,7 +3,7 @@ It implements a gesture recognition system that uses both a front-end and a back
 
 A few snapshots of this project:
 
-![Screenshot 2024-07-07 231005](https://github.com/user-attachments/assets/bb19c375-f410-4eed-9783-760de5c0f70f)
+![Screenshot 2024-07-07 232904](https://github.com/user-attachments/assets/2aa1f158-9766-4ee5-879f-61e67d3bd073)
 ![Screenshot 2024-07-07 231042](https://github.com/user-attachments/assets/67623510-9b5d-465f-8354-f4c4bf69a2a7)
 ![Screenshot 2024-07-07 231511](https://github.com/user-attachments/assets/2f2a969b-39b9-4041-8e69-4baf240578f1)
 ![Screenshot 2024-07-07 230912](https://github.com/user-attachments/assets/fb647707-75d7-4c59-842a-a794d8451d05)
