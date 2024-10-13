@@ -2,7 +2,7 @@
 It implements a gesture recognition system that uses both a front-end and a back-end. The back-end, uses Python, leverages the user's camera to detect hand gestures in real-time and classify them using a pre-trained model. Based on the recognized gestures, the system generates corresponding sentences dynamically. The front-end provides a user-friendly interface for interaction, seamlessly integrating with the back-end to display the detected gestures and sentences in real-time.
 
 A few snapshots of this project:
-![Screenshot 2024-07-07 232904](https://github.com/user-attachments/assets/8115a56c-c58a-4908-bb58-fbac1b6c2997)
+
 ![Screenshot 2024-07-07 231005](https://github.com/user-attachments/assets/bb19c375-f410-4eed-9783-760de5c0f70f)
 ![Screenshot 2024-07-07 231042](https://github.com/user-attachments/assets/67623510-9b5d-465f-8354-f4c4bf69a2a7)
 ![Screenshot 2024-07-07 231511](https://github.com/user-attachments/assets/2f2a969b-39b9-4041-8e69-4baf240578f1)
