@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Feedback</title>
+    <style>
+        * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+        }
+        
+        body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-image: 
+        linear-gradient(rgba(83, 80, 80, 0.75), rgba(0, 0, 0, 0.75)), 
+        url('templates/wp.jpg');
+  background-size: cover;
+  background-position: center;
+}
+        
+        header, main, footer {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 20px;
+        }
+        
+        header {
+          background-color: #333;
+          color: #999696;
+        }
+        
+        nav ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: space-between;
+        }
+        
+        nav li {
+          margin-right: 20px;
+        }
+        
+        nav a {
+          color: #fff;
+          text-decoration: none;
+        }
+        
+        nav a:hover {
+          color: #ccc;
+        }
+        
+        main {
+          flex-grow: 1;
+        }
+        
+        section#feedback {
+          background-color: #cbc8c8;
+          padding: 20px;
+          border: 1px solid #ddd;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h2 {
+          margin-top: 0;
+        }
+        
+        form {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        
+        label {
+          margin-bottom: 10px;
+        }
+        
+        input, textarea, select {
+          padding: 10px;
+          margin-bottom: 20px;
+          border: 1px solid #ccc;
+        }
+        
+        input[type="submit"] {
+          background-color: #333;
+          color: #fff;
+          border: none;
+          padding: 10px 20px;
+          cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+          background-color: #444;
+        }
+        
+        footer {
+          background-color: #333;
+          color: #fff;
+          padding: 10px;
+          text-align: center;
+          clear: both;
+        }
+        
+        footer p {
+          margin-bottom: 0;
+        }</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="feedback">
+            <h2>Hand Symbol Project Feedback</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback"></textarea><br><br>
+                <label for="rating">Rating (1-5):</label>
+                <select id="rating" name="rating">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select><br><br>
+                <input type="submit" value="Submit Feedback">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Hand Symbol Project</p>
+    </footer>
+</body>
+</html>

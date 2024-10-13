@@ -1,0 +1,35 @@
+<style>
+    /* Define styles for the button */
+   .subscribe-btn {
+      background-color: #FFFFFF; /* White background */
+      color: #000000; /* Black text */
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+   .subscribe-btn:hover {
+      background-color: #CCCCCC; /* Light gray background on hover */
+    }
+    
+   .subscribe-btn:active {
+      background-color: #FF0000; /* Red background when clicked */
+      color: #FFFFFF; /* White text when clicked */
+    }
+    
+   .subscribed {
+      background-color: #FF0000; /* Red background when subscribed */
+      color: #FFFFFF; /* White text when subscribed */
+    }
+  </style>
+  
+  <button class="subscribe-btn" onclick="subscribe()">Subscribe</button>
+  
+  <script>
+    function subscribe() {
+      // Change the button's class to "subscribed" when clicked
+      document.querySelector(".subscribe-btn").classList.add("subscribed");
+      document.querySelector(".subscribe-btn").textContent = "Subscribed";
+    }
+  </script>
