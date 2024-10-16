@@ -4,15 +4,15 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Checkout the code from the repository
-                git url: 'https://github.com/surajkumarsingh03/Gesture-Sentence-Recognition-System'
+                // Checkout the code from the repository and specify the branch
+                git branch: 'main', url: 'https://github.com/surajkumarsingh03/Gesture-Sentence-Recognition-System'
             }
         }
 
         stage('Build') {
             steps {
-                // Install dependencies (adjust based on your project's needs)
-                sh ' python app.py'
+                // Install dependencies
+                sh 'python app.py'
                 sh 'pip install -r requirements.txt'
             }
         }
@@ -25,3 +25,4 @@ pipeline {
         }
     }
 }
+
