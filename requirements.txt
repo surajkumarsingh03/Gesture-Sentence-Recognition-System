@@ -1,8 +1,4 @@
-1. navigate to virtual env 
-    . to activate virtual env - .\env\Scripts\activate 
-    . to create virtual env - python -m venv env
-2. run  - ypython app.py
-3.packages
+         python app.py
         .pip install flask opencv-python-headless cvzone numpy
         .pip install mediapipe
         .pip install tensorflow
